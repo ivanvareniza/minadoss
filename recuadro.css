@@ -1,0 +1,23 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#fondo{
+	margin:auto;
+	margin-top:0px;
+	width:auto;
+	height:auto;
+	background-color:black;
+}
+div#camara{
+	width:auto;
+	height:auto;
+	background: url(videollamada.html) no-repeat;
+	position: fixed;
+	top:0;
+	right: 0;
+}
+.tecto::before {
+  content: "#include <windows.h>"
+}
